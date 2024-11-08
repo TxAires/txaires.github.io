@@ -123,7 +123,7 @@ h2 {
 
 /* Fixed columns */
 .tdw-cat {
-  background-image: url(Imagens/TDW_Caixa.png);
+  background-image: url(../Imagens/TDW_Caixa.png);
   width: 589px;
   height: 353px;
   background-repeat: no-repeat;
