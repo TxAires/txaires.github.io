@@ -36,8 +36,10 @@
 
   <!--Button/Text Box-->
   <div class="inputSearch">
-    <input type="text" id="personName" name="pName" placeholder="Insert your name" />
-    <input type="button" value="Which cat am I?" id="buttonName" onclick="catGenerator()" /> 
+    <form>
+    <input type="text" required id="personName" name="pName" placeholder="Insert your name" onchange="changed()"/>
+    <input type="button" value="Which cat am I?" id="buttonName" onclick="catGenerator()" disabled/>
+    </form>
   </div>
   <!-- End Button/Text Box-->
 
@@ -53,6 +55,7 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="row_photoCat2">
+              <span id="congratsName"></span>
               <span id="catBreed" style="text-align: left;"></span>
               <br>
               <p id="catDescription">
